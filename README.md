@@ -53,6 +53,19 @@ This script scans for potential keyloggers running in the background and display
 
 This will open the GUI and start scanning for potential keyloggers in the background. The detections will be displayed in the GUI and logged to `detections.log`.
 
+### 3. Run Using Bash Script (run_keylogger.sh)
+This script installs the dependencies, runs the keylogger in the background, and starts the keylogger scanner with the GUI.
+
+#### Steps:
+1. **Make the Script Executable**:
+   ```sh
+   chmod +x run_keylogger.sh
+   ```
+2. **Run the Script**:
+   ```sh
+   ./run_keylogger.sh
+   ```
+
 ## Dependencies
 List the following dependencies in your `requirements.txt`:
 ```text
@@ -63,7 +76,3 @@ tkinter
 
 ## Ethical Use
 Ensure you have explicit permission from the user before running any keylogging software. Unauthorized use of keyloggers is illegal and unethical. Be aware of the legal implications and ensure compliance with local laws and regulations.
-
-## Contact
-For any issues or questions, please contact the project maintainer at [email@example.com].
-```
